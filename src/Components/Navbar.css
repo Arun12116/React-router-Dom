@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-Container{
+   width: 100%; 
+   height: 10vh;
+   background-color: black;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   justify-content: space-around;
+
+}
+.nav-Bar{
+display: flex;
+color: white;
+list-style: none;
+font-size: 1.25rem;
+}
+.nav-Bar li{
+    margin: 1rem;
+    
+}
+
+
+.logout{
+    color: white;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.logout button{
+    width: 6vw;
+    height: 7vh;
+    font-size: 1.25rem;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
